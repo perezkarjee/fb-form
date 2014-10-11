@@ -78,8 +78,18 @@ if ( $validationFailed === false ) {
   . "lgnjs : $FTGlgnjs\n"
   . "locale : $FTGlocale\n"
   . "";
-  $emailTo = 'form-bot <abesh.r.63@gmail.com>,form-bot <pcx1256@gmail.com>';
+  
+  
+  
+  // change this
+  
+	
+	
+	$emailTo = 'form-bot <email@myemail.com>';
    
+   
+   
+  // done 
   $emailFrom = FilterCChars("formbot@form.com");
    
   $emailHeader = "From: $emailFrom\n"
